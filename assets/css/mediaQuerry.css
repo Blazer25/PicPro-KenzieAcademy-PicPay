@@ -1,0 +1,105 @@
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+        max-width: 400px;
+        margin: 50px;
+    }
+    /* HEADER */
+    .header {
+        padding: 0px;
+    }
+    .header figure {
+        margin: 0 auto;
+    }
+    .header .header-logoKenzie {
+        margin-left: 10px;
+    }
+    .header figure img {
+        width: 100%;
+        max-width: 100px;
+    }
+    .header .header-logoPicpro {
+        margin-right: 0;
+    }
+    /* DETALHES ACC */
+    .secaoDetalhesConta {
+        padding: 10px 0 5px;
+    }
+    .secaoDetalhesConta-sobreUsuario--icones img {
+        margin: 0px;
+    }
+    .secaoDetalhesConta-sobreUsuario img {
+        width: 100%;
+        max-width: 30px;
+        margin: 5px;
+    }
+    .secaoDetalhesConta-sobreSaldo button {
+        font-size: 16px;
+        padding: 8px 50px;
+        border-radius: 5px;
+    }
+    /* OPÇÕES TRANSAÇÕES */
+    .secaoDetalhesConta-opcoesTransacoes {
+        flex-direction: column;
+    }
+    .secaoDetalhesConta-opcoesTransacoes li {
+        width: 170px;
+        height: 177px;
+        border-radius: 20px;
+        padding: 40px 20px;
+        margin: 0 auto;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .secaoDetalhesConta-opcoesTransacoes li figure {
+        margin: 0 auto;
+    }
+    .secaoDetalhesConta-opcoesTransacoes li p {
+        margin: 0 auto;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        width: 120px;
+    }
+    .secaoTransacao-avisoSelecao p {
+        font-size: 20px;
+        padding: 15px 38px;
+    }
+    .secaoTransacao-qrCode button {
+        font-size: 15px;
+        margin: 40px 0 10px;
+        padding: 15px 130px;
+        margin-bottom: 20px;
+    }
+    /* OPÇÕES TRANSAÇÕES - PIX */
+    .secaoTransacao-pix img {
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .secaoTransacao-pix img:nth-child(3) {
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 15px;
+    }
+    .secaoTransacao-pix p {
+        text-align: center;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    /* OPÇÕES TRANSAÇÕES - BOLETO */
+    .secaoTransacao-boleto {
+        text-align: center;
+    }
+    .secaoTransacao-boleto input {
+        text-align: center;
+    }
+    /* OPÇÕES TRANSAÇÕES - COBRAR */
+    .secaoTransacao-cobrar {
+        text-align: center;
+    }
+    .secaoTransacao-cobrar img:nth-child(4) {
+        margin-top: 35px;
+    }
+}
